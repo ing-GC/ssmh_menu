@@ -1,0 +1,25 @@
+<ion-menu [content]="mycontent">
+
+  <ion-content>
+      <ion-list>
+           <button ion-item menuClose (click)="openPage(reportes)">
+              Reportes
+          </button>
+          <button ion-item menuClose (click)="openPage(carta-asignacion)">
+              Carta de Asignacion
+          </button>
+          <button ion-item menuClose (click)="openPage(boton-panico)">
+              Boton de panico
+          </button>
+          <button ion-item menuClose (click)="openPage(normatividad)">
+              Normatividad
+        </button>
+        <button ion-item menuClose (click)="openPage(modificar-perfil)">
+          Modificar perfil
+      </button>
+      </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav #mycontent [root]="rootPage"></ion-nav>

@@ -6,11 +6,23 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { MainPage } from '../pages/main/main';
+import { BotonPanicoPage } from '../pages/boton-panico/boton-panico';
+import { CartaAsignacionPage } from '../pages/carta-asignacion/carta-asignacion';
+import { ModificarPerfilPage } from '../pages/modificar-perfil/modificar-perfil';
+import { NormatividadPage } from '../pages/normatividad/normatividad';
+import { ReportesPage } from '../pages/reportes/reportes';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    MainPage,
+    BotonPanicoPage,
+    CartaAsignacionPage,
+    ModificarPerfilPage,
+    NormatividadPage,
+    ReportesPage
   ],
   imports: [
     BrowserModule,
